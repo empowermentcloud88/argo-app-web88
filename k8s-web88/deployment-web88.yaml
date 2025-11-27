@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web88
+  labels:
+    app: web88
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web88
+  template:
+    metadata:
+      labels:
+        app: web88
+    spec:
+      containers:
+      - name: web88
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+
