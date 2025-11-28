@@ -5,7 +5,11 @@ metadata:
   labels:
     app: web88
 spec:
+<<<<<<< HEAD
   replicas: 3
+=======
+  replicas: 2
+>>>>>>> 3b3c380 (manifest)
   selector:
     matchLabels:
       app: web88
