@@ -5,7 +5,7 @@ metadata:
   labels:
     app: web88
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: web88
