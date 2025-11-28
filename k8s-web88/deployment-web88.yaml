@@ -15,7 +15,7 @@ spec:
         app: web88
     spec:
       containers:
-      - name: web88
+      - name: nginx
         image: nginx:latest
         ports:
         - containerPort: 80
