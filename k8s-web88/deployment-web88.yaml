@@ -6,10 +6,14 @@ metadata:
     app: web88
 spec:
 <<<<<<< HEAD
+<<<<<<< HEAD
   replicas: 3
 =======
   replicas: 2
 >>>>>>> 3b3c380 (manifest)
+=======
+  replicas: 4
+>>>>>>> 34b218d (update)
   selector:
     matchLabels:
       app: web88
