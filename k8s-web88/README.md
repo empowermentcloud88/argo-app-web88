@@ -1,1 +1,2 @@
-#Wwelcome to Argo City
+This is a test README for ArgoCD Git integration.
+
